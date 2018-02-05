@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
   # resources :orders
-  post 'codes/create' => 'codes#create'
+  get 'codes/create' => 'codes#create'
 
 end
